@@ -9,7 +9,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 /root/cert.crt
 /root/private.key
 curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
-قدم هایی که باید به ترتیب وارد کنید 
+Steps 👇
 2
 12
 y
@@ -17,4 +17,9 @@ y
 1
 Another Panel 👇
 https://trojanpanel.github.io/
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+Steps 👇
+10
+1
+4
 sudo lsof -i -P -n | grep LISTEN
