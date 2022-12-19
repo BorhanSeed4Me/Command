@@ -1,36 +1,44 @@
-tcp        0      0 0.0.0.0:9507            0.0.0.0:*               LISTEN 975/mariadbd
-tcp        0      0 127.0.0.1:38020         0.0.0.0:*               LISTEN 1315/bin/xray/xray
-tcp        0      0 127.0.0.1:62789         0.0.0.0:*               LISTEN 6832/bin/xray-linux
-tcp        0      0 127.0.0.1:38090         0.0.0.0:*               LISTEN 1321/bin/xray/xray
-tcp        0      0 0.0.0.0:6378            0.0.0.0:*               LISTEN 983/redis-server *:
-tcp        0      0 127.0.0.1:30443         0.0.0.0:*               LISTEN 2259/bin/trojango/t
-tcp        0      0 127.0.0.1:34443         0.0.0.0:*               LISTEN 1354/bin/naiveproxy
-tcp        0      0 127.0.0.1:38060         0.0.0.0:*               LISTEN 1319/bin/xray/xray
-tcp        0      0 127.0.0.1:38030         0.0.0.0:*               LISTEN 1316/bin/xray/xray
-tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN 540/systemd-resolve
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN 641/sshd: /usr/sbin
-tcp        0      0 127.0.0.1:38040         0.0.0.0:*               LISTEN 1317/bin/xray/xray
-tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN 1010/nginx: master
-tcp        0      0 127.0.0.1:38010         0.0.0.0:*               LISTEN 1314/bin/xray/xray
-tcp        0      0 127.0.0.1:38080         0.0.0.0:*               LISTEN 1320/bin/xray/xray
-tcp        0      0 127.0.0.1:38050         0.0.0.0:*               LISTEN 1318/bin/xray/xray
-tcp6       0      0 :::9507                 :::*                    LISTEN 975/mariadbd
-tcp6       0      0 :::8100                 :::*                    LISTEN 1247/./trojan-panel
-tcp6       0      0 :::2086                 :::*                    LISTEN 6832/bin/xray-linux
-tcp6       0      0 :::8040                 :::*                    LISTEN 1317/bin/xray/xray
-tcp6       0      0 :::8585                 :::*                    LISTEN 605/x-ui
-tcp6       0      0 :::6378                 :::*                    LISTEN 983/redis-server *:
-tcp6       0      0 :::8010                 :::*                    LISTEN 1314/bin/xray/xray
-tcp6       0      0 :::80                   :::*                    LISTEN 994/caddy
-tcp6       0      0 :::8080                 :::*                    LISTEN 1320/bin/xray/xray
-tcp6       0      0 :::8081                 :::*                    LISTEN 1394/./trojan-panel
-tcp6       0      0 :::8082                 :::*                    LISTEN 1247/./trojan-panel
-tcp6       0      0 :::8050                 :::*                    LISTEN 1318/bin/xray/xray
-tcp6       0      0 :::8020                 :::*                    LISTEN 1315/bin/xray/xray
-tcp6       0      0 :::22                   :::*                    LISTEN 641/sshd: /usr/sbin
-tcp6       0      0 :::8090                 :::*                    LISTEN 1321/bin/xray/xray
-tcp6       0      0 :::443                  :::*                    LISTEN 2259/bin/trojango/t
-tcp6       0      0 :::4443                 :::*                    LISTEN 1354/bin/naiveproxy
-tcp6       0      0 :::8060                 :::*                    LISTEN 1319/bin/xray/xray
-tcp6       0      0 :::8030                 :::*                    LISTEN 1316/bin/xray/xray
-tcp6       0      0 :::8863                 :::*                    LISTEN 994/caddy
+tcp        0      0 0.0.0.0:9507            0.0.0.0:*               LISTEN      975/mariadbd
+tcp        0      0 127.0.0.1:38020         0.0.0.0:*               LISTEN      1315/bin/xray/xray
+tcp        0      0 127.0.0.1:62789         0.0.0.0:*               LISTEN      23912/bin/xray-linu
+tcp        0      0 127.0.0.1:38090         0.0.0.0:*               LISTEN      1321/bin/xray/xray
+tcp        0      0 0.0.0.0:6378            0.0.0.0:*               LISTEN      983/redis-server *:
+tcp        0      0 127.0.0.1:30443         0.0.0.0:*               LISTEN      2259/bin/trojango/t
+tcp        0      0 127.0.0.1:34443         0.0.0.0:*               LISTEN      1354/bin/naiveproxy
+tcp        0      0 127.0.0.1:38060         0.0.0.0:*               LISTEN      1319/bin/xray/xray
+tcp        0      0 127.0.0.1:38030         0.0.0.0:*               LISTEN      1316/bin/xray/xray
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      540/systemd-resolve
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      641/sshd: /usr/sbin
+tcp        0      0 127.0.0.1:38040         0.0.0.0:*               LISTEN      1317/bin/xray/xray
+tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN      1010/nginx: master
+tcp        0      0 127.0.0.1:38010         0.0.0.0:*               LISTEN      1314/bin/xray/xray
+tcp        0      0 127.0.0.1:38080         0.0.0.0:*               LISTEN      1320/bin/xray/xray
+tcp        0      0 127.0.0.1:38050         0.0.0.0:*               LISTEN      1318/bin/xray/xray
+tcp6       0      0 :::9507                 :::*                    LISTEN      975/mariadbd
+tcp6       0      0 :::8100                 :::*                    LISTEN      1247/./trojan-panel
+tcp6       0      0 :::2052                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::2086                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::9030                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::2087                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::8040                 :::*                    LISTEN      1317/bin/xray/xray
+tcp6       0      0 :::8585                 :::*                    LISTEN      19293/x-ui
+tcp6       0      0 :::6378                 :::*                    LISTEN      983/redis-server *:
+tcp6       0      0 :::8010                 :::*                    LISTEN      1314/bin/xray/xray
+tcp6       0      0 :::2095                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::80                   :::*                    LISTEN      994/caddy
+tcp6       0      0 :::8080                 :::*                    LISTEN      1320/bin/xray/xray
+tcp6       0      0 :::8880                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::9040                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::8081                 :::*                    LISTEN      1394/./trojan-panel
+tcp6       0      0 :::8082                 :::*                    LISTEN      1247/./trojan-panel
+tcp6       0      0 :::8050                 :::*                    LISTEN      1318/bin/xray/xray
+tcp6       0      0 :::8020                 :::*                    LISTEN      1315/bin/xray/xray
+tcp6       0      0 :::22                   :::*                    LISTEN      641/sshd: /usr/sbin
+tcp6       0      0 :::8090                 :::*                    LISTEN      1321/bin/xray/xray
+tcp6       0      0 :::443                  :::*                    LISTEN      2259/bin/trojango/t
+tcp6       0      0 :::4443                 :::*                    LISTEN      1354/bin/naiveproxy
+tcp6       0      0 :::8060                 :::*                    LISTEN      1319/bin/xray/xray
+tcp6       0      0 :::9020                 :::*                    LISTEN      23912/bin/xray-linu
+tcp6       0      0 :::8030                 :::*                    LISTEN      1316/bin/xray/xray
+tcp6       0      0 :::8863                 :::*                    LISTEN      994/caddy
+tcp6       0      0 :::2082                 :::*                    LISTEN      23912/bin/xray-linu
