@@ -1,38 +1,36 @@
-systemd-r  581  systemd-resolve   13u  IPv4  18367      0t0  TCP 127.0.0.53:53 (LISTEN)
-sshd       758             root    3u  IPv4  22093      0t0  TCP *:22 (LISTEN)
-sshd       758             root    4u  IPv6  22104      0t0  TCP *:22 (LISTEN)
-caddy     4900             root    8u  IPv6  37523      0t0  TCP *:8863 (LISTEN)
-caddy     4900             root    9u  IPv6  37524      0t0  TCP *:80 (LISTEN)
-mariadbd  5046 systemd-coredump   19u  IPv4  38265      0t0  TCP *:9507 (LISTEN)
-mariadbd  5046 systemd-coredump   20u  IPv6  38266      0t0  TCP *:9507 (LISTEN)
-redis-ser 5288 systemd-coredump    6u  IPv4  38705      0t0  TCP *:6378 (LISTEN)
-redis-ser 5288 systemd-coredump    7u  IPv6  38706      0t0  TCP *:6378 (LISTEN)
-trojan-pa 5469             root    7u  IPv6  39624      0t0  TCP *:8081 (LISTEN)
-nginx     5601             root    6u  IPv4  40216      0t0  TCP *:8888 (LISTEN)
-nginx     5615  systemd-resolve    6u  IPv4  40216      0t0  TCP *:8888 (LISTEN)
-trojan-pa 6085             root    7u  IPv6  42131      0t0  TCP *:8082 (LISTEN)
-trojan-pa 6085             root    8u  IPv6  42136      0t0  TCP *:8100 (LISTEN)
-xray      6109             root    3u  IPv4  42208      0t0  TCP 127.0.0.1:38010 (LISTEN)
-xray      6109             root    7u  IPv6  42212      0t0  TCP *:8010 (LISTEN)
-xray      6118             root    3u  IPv6  42292      0t0  TCP *:8020 (LISTEN)
-xray      6118             root    7u  IPv4  42293      0t0  TCP 127.0.0.1:38020 (LISTEN)
-xray      6151             root    3u  IPv4  42720      0t0  TCP 127.0.0.1:38030 (LISTEN)
-xray      6151             root    7u  IPv6  42727      0t0  TCP *:8030 (LISTEN)
-xray      6160             root    3u  IPv4  43067      0t0  TCP 127.0.0.1:38050 (LISTEN)
-xray      6160             root    7u  IPv6  43071      0t0  TCP *:8050 (LISTEN)
-xray      6170             root    3u  IPv4  43295      0t0  TCP 127.0.0.1:38060 (LISTEN)
-xray      6170             root    7u  IPv6  43299      0t0  TCP *:8060 (LISTEN)
-xray      6183             root    3u  IPv4  44044      0t0  TCP 127.0.0.1:38080 (LISTEN)
-xray      6183             root    7u  IPv6  44048      0t0  TCP *:8080 (LISTEN)
-trojan-go 6213             root    3u  IPv6  45100      0t0  TCP *:443 (LISTEN)
-trojan-go 6213             root    8u  IPv4  45111      0t0  TCP 127.0.0.1:30443 (LISTEN)
-naiveprox 6218             root   11u  IPv4  45758      0t0  TCP 127.0.0.1:34443 (LISTEN)
-naiveprox 6218             root   12u  IPv6  45759      0t0  TCP *:4443 (LISTEN)
-xray      6259             root    3u  IPv4  48426      0t0  TCP 127.0.0.1:38040 (LISTEN)
-xray      6259             root    7u  IPv6  48430      0t0  TCP *:8040 (LISTEN)
-xray      6268             root    3u  IPv4  49595      0t0  TCP 127.0.0.1:38090 (LISTEN)
-xray      6268             root    7u  IPv6  49599      0t0  TCP *:8090 (LISTEN)
-x-ui      7567             root    7u  IPv6 614787      0t0  TCP *:1919 (LISTEN)
-xray-linu 7794             root    3u  IPv4 630272      0t0  TCP 127.0.0.1:62789 (LISTEN)
-xray-linu 7794             root    7u  IPv6 630276      0t0  TCP *:2083 (LISTEN)
-xray-linu 7794             root    9u  IPv6 630278      0t0  TCP *:9030 (LISTEN)
+tcp        0      0 0.0.0.0:9507            0.0.0.0:*               LISTEN 975/mariadbd
+tcp        0      0 127.0.0.1:38020         0.0.0.0:*               LISTEN 1315/bin/xray/xray
+tcp        0      0 127.0.0.1:62789         0.0.0.0:*               LISTEN 6832/bin/xray-linux
+tcp        0      0 127.0.0.1:38090         0.0.0.0:*               LISTEN 1321/bin/xray/xray
+tcp        0      0 0.0.0.0:6378            0.0.0.0:*               LISTEN 983/redis-server *:
+tcp        0      0 127.0.0.1:30443         0.0.0.0:*               LISTEN 2259/bin/trojango/t
+tcp        0      0 127.0.0.1:34443         0.0.0.0:*               LISTEN 1354/bin/naiveproxy
+tcp        0      0 127.0.0.1:38060         0.0.0.0:*               LISTEN 1319/bin/xray/xray
+tcp        0      0 127.0.0.1:38030         0.0.0.0:*               LISTEN 1316/bin/xray/xray
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN 540/systemd-resolve
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN 641/sshd: /usr/sbin
+tcp        0      0 127.0.0.1:38040         0.0.0.0:*               LISTEN 1317/bin/xray/xray
+tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN 1010/nginx: master
+tcp        0      0 127.0.0.1:38010         0.0.0.0:*               LISTEN 1314/bin/xray/xray
+tcp        0      0 127.0.0.1:38080         0.0.0.0:*               LISTEN 1320/bin/xray/xray
+tcp        0      0 127.0.0.1:38050         0.0.0.0:*               LISTEN 1318/bin/xray/xray
+tcp6       0      0 :::9507                 :::*                    LISTEN 975/mariadbd
+tcp6       0      0 :::8100                 :::*                    LISTEN 1247/./trojan-panel
+tcp6       0      0 :::2086                 :::*                    LISTEN 6832/bin/xray-linux
+tcp6       0      0 :::8040                 :::*                    LISTEN 1317/bin/xray/xray
+tcp6       0      0 :::8585                 :::*                    LISTEN 605/x-ui
+tcp6       0      0 :::6378                 :::*                    LISTEN 983/redis-server *:
+tcp6       0      0 :::8010                 :::*                    LISTEN 1314/bin/xray/xray
+tcp6       0      0 :::80                   :::*                    LISTEN 994/caddy
+tcp6       0      0 :::8080                 :::*                    LISTEN 1320/bin/xray/xray
+tcp6       0      0 :::8081                 :::*                    LISTEN 1394/./trojan-panel
+tcp6       0      0 :::8082                 :::*                    LISTEN 1247/./trojan-panel
+tcp6       0      0 :::8050                 :::*                    LISTEN 1318/bin/xray/xray
+tcp6       0      0 :::8020                 :::*                    LISTEN 1315/bin/xray/xray
+tcp6       0      0 :::22                   :::*                    LISTEN 641/sshd: /usr/sbin
+tcp6       0      0 :::8090                 :::*                    LISTEN 1321/bin/xray/xray
+tcp6       0      0 :::443                  :::*                    LISTEN 2259/bin/trojango/t
+tcp6       0      0 :::4443                 :::*                    LISTEN 1354/bin/naiveproxy
+tcp6       0      0 :::8060                 :::*                    LISTEN 1319/bin/xray/xray
+tcp6       0      0 :::8030                 :::*                    LISTEN 1316/bin/xray/xray
+tcp6       0      0 :::8863                 :::*                    LISTEN 994/caddy
