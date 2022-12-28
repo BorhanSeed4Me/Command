@@ -19,6 +19,7 @@ y
 1
 Another Panel 👇
 https://trojanpanel.github.io/
+source <(curl -L https://github.com/trojanpanel/install-script/raw/main/install_script.sh)
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 Steps 👇
 10
