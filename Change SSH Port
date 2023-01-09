@@ -1,0 +1,18 @@
+nano /etc/ssh/sshd_config
+
+sudo firewall-cmd --add-port=1026/tcp --permanent successsudo firewall-cmd --remove-service=ssh --permanent success
+
+For Debian and Ubuntu
+
+
+systemctl daemon-reload
+
+service ssh restart
+
+For CentOS and Fedora
+
+systemctl restart sshd.service
+
+To verify that the new SSH port is open, run either the ss or netstat command:
+
+netstat -plnt | grep 1026
