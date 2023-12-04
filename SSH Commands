@@ -10,6 +10,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/hossinasaadi/x-ui/dev/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/diditra/x-ui/master/install.sh)
 /root/cert.crt
 /root/private.key
