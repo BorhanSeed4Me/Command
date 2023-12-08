@@ -12,8 +12,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/diditra/x-ui/master/install.sh)
-/root/cert.crt
-/root/private.key
+sudo userdel -r ubuntu
+sudo rm -rf /home/ubuntu
 curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
 Steps 👇
 2
