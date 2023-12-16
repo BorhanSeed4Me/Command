@@ -1,4 +1,4 @@
-sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && sudo systemctl restart ssh && sudo passwd
+sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config && sudo systemctl restart ssh && sudo passwd
 apt update && apt upgrade -y
 apt install curl socat -y
 curl https://get.acme.sh | sh
@@ -14,6 +14,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.s
 bash <(curl -Ls https://raw.githubusercontent.com/diditra/x-ui/master/install.sh)
 userdel -r ubuntu
 rm -rf /home/ubuntu
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config && sudo systemctl restart ssh
 curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/install_kernel.sh && chmod +x ./install_kernel.sh && ./install_kernel.sh
 Steps 👇
 2
