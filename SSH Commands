@@ -12,9 +12,11 @@ curl https://get.acme.sh | sh
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/hossinasaadi/x-ui/dev/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
-bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/diditra/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+ghcr.io/mhsanaei/3x-ui
+v2.3.
 Reverse TLS Tunnel 👇
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/ReverseTlsTunnel/main/RtTunnel.sh)
 userdel -r ubuntu
