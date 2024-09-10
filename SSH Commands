@@ -16,7 +16,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/diditra/x-ui/master/install.sh
 bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh)
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ghcr.io/mhsanaei/3x-ui
-v2.3.
+v2.4.
 Reverse TLS Tunnel 👇
 bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/ReverseTlsTunnel/main/RtTunnel.sh)
 userdel -r ubuntu
